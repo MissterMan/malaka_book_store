@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Malaka Bookstore</title>
+
+    <!-- Font DM Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Font Source Sans Pro -->
+    <link rel="stylesheet" href="https://use.typekit.net/jjp6utf.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <div class="bg-gradient-to-b from-[#2F364B] to-[#262B3D] rounded-br-[50px] h-fit w-full">
+
+        <!-- NAVBAR -->
+        <nav class="w-full py-9">
+            <div class="mx-20">
+                <div class="flex items-center">
+                    <div class="flex w-3/12 font-dmsans font-bold items-center space-x-7">
+                        <img src="img/malaka-icon.svg" alt="icon the malaka">
+                        <div><a href="#" class="text-white text-lg">The Malaka</a></div>
+                    </div>
+                    <div class="flex w-6/12 text-center justify-evenly">
+                        <a href="#" class="text-white hover:font-bold active:font-bold text-base font-dmsans">Top</a>
+                        <a href="#" class="text-white hover:font-bold active:font-bold text-base font-dmsans">For
+                            Everyone</a>
+                        <a href="#"
+                            class="text-white hover:font-bold active:font-bold text-base font-dmsans">Benefit</a>
+                        <a href="#"
+                            class="text-white hover:font-bold active:font-bold text-base font-dmsans">Preview</a>
+                        <a href="#"
+                            class="text-white hover:font-bold active:font-bold text-base font-dmsans">Penulis</a>
+                    </div>
+                    <div class="grid w-3/12 justify-items-end">
+                        <button
+                            class="bg-white rounded-full text-base font-dmsans font-bold w-36 h-12">Download</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <!-- HERO CONTENT -->
+        <div class="">
+            <div class="flex mx-20 justify-evenly">
+                <div class="w-5/12 my-28 space-y-7">
+                    <div class="space-y-5">
+                        <h1 class="text-white font-dmsans font-medium text-5xl leading-snug">Sebuah framework CSS untuk
+                            developer yang
+                            memiliki
+                            phobia terhadap CSS</h1>
+                        <p class="text-white text-base font-dmsans leading-loose">Buku ini akan mengajarkan kamu konsep
+                            utility-first pada
+                            CSS dan
+                            diakhiri
+                            dengan membangun sebuah
+                            website yang
+                            responsive dengan Tailwind CSS.</p>
+                    </div>
+
+                    <!-- Hero Content Button -->
+                    <div class="flex justify-between w-10/12 items-center">
+                        <a href="#"
+                            class="flex hover:shadow-lg hover:shadow-primary/40 duration-300 bg-primary text-white font-dmsans font-medium px-6 py-5 w-fit rounded-full text-base">Beli
+                            Sekarang <img class="pl-3" src="icon/arrow-right-circle.svg" alt="icon arrow"></a>
+                        <div class="flex space-x-7">
+                            <img class="animate-bounce w-5 h-5" src="icon/download.svg" alt="icon download">
+                            <div>
+                                <h4 class="text-white/60 tracking-widest font-sans-pro font-bold text-base">SUDAH
+                                    TERJUAL
+                                </h4>
+                                <h1 class="text-white text-xl font-inter font-bold">501,234+</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Hero Content Technology Used -->
+                    <div class="pt-16">
+                        <div class="flex items-center space-x-3">
+                            <div class="w-7 h-0.5 bg-white/40"></div>
+                            <p class="text-white/40 tracking-widest">TEKNOLOGI YANG DIGUNAKAN</p>
+                        </div>
+                        <div class="pt-10">
+                            <div class="flex items-center justify-between">
+                                <img class="hover:animate-upside" src="icon/html.svg" alt="html icon">
+                                <img src="icon/css.svg" alt="css icon">
+                                <img src="icon/firefox.svg" alt="firefox icon">
+                                <img src="icon/sublime.svg" alt="sublime text icon">
+                                <img src="icon/terminal.svg" alt="terminal icon">
+                                <img src="icon/node.svg" alt="node js icon">
+                                <img src="icon/kucing.svg" alt="kucing">
+                                <img src="icon/npm.svg" alt="npm icon">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- book images -->
+                <div class="rotate-6">
+                    <img class="animate-floating" src="img/buku.svg" alt="buku tailwind css">
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CONTENT -->
+    <div class="my-40 mx-20">
+        <div>
+            <div class="flex justify-between items-center">
+                <div class="w-5/12">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-7 h-0.5 bg-primary"></div>
+                        <p class="font-dmsans tracking-widest font-bold text-sm text-primary">BUKU INI UNTUK SIAPA?</p>
+                    </div>
+                    <h3 class="text-3xl font-dmsans font-medium">
+                        Buku yang cocok dibaca untuk <br> front-end dan back-end, <br> bahkan UI designer!
+                    </h3>
+                </div>
+
+                <div class="w-5/12">
+                    <p class="font-dmsans leading-relaxed text-lg ">Buku ini bukan hanya untuk front-end developer yang
+                        ingin
+                        meningkatkan skill, buku ini juga cocok
+                        untuk back-end
+                        developer dan UI designer agar dapat menulis style tanpa harus menulis kode CSS dan tanpa
+                        mengandalkan front-end
+                        developer!</p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flex justify-between my-24">
+            <div class="bg-white w-96 text-center space-y-5 rounded-lg h-auto">
+                <img src="img/card1.svg" alt="card 1">
+                <h2 class="font-dmsans font-medium text-xl">Utility-First Framework</h2>
+                <p class="px-5 font-dmsans text-base leading-loose">Tailwind hadir dengan konsep utility-first.
+                    Utility-first artinya banyak class-class kecil yang bisa digabung untuk
+                    menjadi sebuah UI.</p>
+            </div>
+            <div class="bg-white w-96 text-center space-y-5 rounded-lg h-auto">
+                <img src="img/card2.svg" alt="card 1">
+                <h2 class="font-dmsans font-medium text-xl">Tailwind JIT Engine</h2>
+                <p class="px-5 font-dmsans text-base leading-loose">JIT engine akan men-generate utility-class yang kita
+                    gunakan saja. Ini akan membuat pengalaman pengembangan semakin
+                    baik.</p>
+            </div>
+            <div class="bg-white w-96 text-center space-y-5 rounded-lg h-auto">
+                <img src="img/card3.svg" alt="card 1">
+                <h2 class="font-dmsans font-medium text-xl">Unopinionated-Framework</h2>
+                <p class="px-5 font-dmsans text-base leading-loose">Tailwind tidak memiliki pra-desain komponen apapun,
+                    ini membuat desain website yang kita buat menjadi unik.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Kata Pengantar -->
+    <div class="w-full bg-primary">
+        <div class="mx-20 py-24 flex justify-between">
+            <div class="w-4/12">
+                <div class="flex items-center space-x-4 pb-5">
+                    <div class="w-7 h-0.5 bg-white"></div>
+                    <p class="font-dmsans  tracking-widest font-bold text-sm text-white">BUKU INI UNTUK SIAPA?</p>
+                </div>
+                <p class="font-dmsans text-3xl text-white pb-10">Kata Pengantar Dari <br> Penulis Buku</p>
+                <div class="w-full bg-white/30 h-0.5"></div>
+                <div class="flex space-x-5 items-center py-10">
+                    <img src="img/foto.svg" alt="foto ganteng">
+                    <div>
+                        <p class="font-dmsans font-medium text-lg text-white">Muhammad Naufal Azhar</p>
+                        <p class="font-dmsans text-sm text-white">@mhmdnauvalazar</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-7/12">
+                <p class="font-dmsans text-white text-lg text-justify leading-loose">"Tailwind sangat memungkinkan kamu
+                    untuk
+                    membangun
+                    sebuah desain website yang unik dan tanpa kamu perlu menulis kode CSS
+                    sedikitpun. Mungkin kamu akan berpikir bahwa kamu akan membutuhkan waktu yang lebih lama ketika
+                    membangun
+                    sebuah website
+                    dengan utility-first framework ketimbang dengan framework UIkit. Ya, benar. Karena kamu harus
+                    memikirkan
+                    desain dan
+                    mengimplementasikan desain tersebut dari awal sendiri. Namun, kamu perlu ingat manfaat-manfaat yang
+                    diberikan oleh
+                    utility-first framework, sehingga kamu dapat mempertimbangkannya. Dalam buku ini, kita akan
+                    mempelajari
+                    framework
+                    Tailwind CSS. Mulai dari konsep, workflow, hingga membuat sebuah website responsive dengan
+                    TailwindCSS.
+                    Buku
+                    ini tidak
+                    untuk semua orang, setidaknya kamu memahami cara mengoperasikan komputer, memahami HTML, memahami
+                    CSS,
+                    atau
+                    bisa
+                    dibilang kamu sudah pernah membangun website sebelumnya dan ingin mempelajari hal baru untuk
+                    meningkatkan
+                    skill."</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="bg-[#EDFCFD] w-full h-fit">
+
+        <!-- Konten Manfaat Buku -->
+        <div class="mx-20 py-20">
+            <div class="flex justify-between">
+                <div class="w-5/12 space-y-5">
+                    <div>
+                        <div class="flex items-center space-x-4 pb-5">
+                            <div class="w-7 h-0.5 bg-primary"></div>
+                            <p class="font-dmsans  tracking-widest font-bold text-sm text-primary">MANFAAT BUKU</p>
+                        </div>
+                        <div class="space-y-5 text-justify">
+                            <h2 class="font-dmsans leading-relaxed font-medium text-3xl">Manfaat yang kamu dapatkan
+                                ketika
+                                membeli buku
+                                Tailwind
+                                CSS ini</h2>
+                            <p class="font-dmsans text-lg leading-loose">"Buku itu seperti cermin: kalau yang berkaca
+                                padanya
+                                adalah seorang yang bodoh, engkau tak bisa
+                                berharap yang terpantul
+                                adalah seorang yang jenius." - J.K Rowling</p>
+                        </div>
+                    </div>
+                    <div class="space-y-5">
+                        <div class="flex space-x-5 text-justify">
+                            <img src="icon/check.svg" alt="check icon">
+                            <p class="font-dmsans leading-relaxed text-base">Buku ini cocok untuk seorang yang ingin
+                                memperdalam front-end development agar tidak hanya sekadar Bootstrap</p>
+                        </div>
+                        <div class="flex space-x-5 text-justify">
+                            <img src="icon/check.svg" alt="check icon">
+                            <p class="font-dmsans leading-relaxed text-base">Buku ini ditulis berdasarkan dari
+                                dokumentasi Tailwind CSS langsung, agar meminimalisir terjadinya miskonsepsi</p>
+                        </div>
+                        <div class="flex space-x-5 text-justify">
+                            <img src="icon/check.svg" alt="check icon">
+                            <p class="font-dmsans leading-relaxed text-base">Sangat ramah untuk back-end developer yang
+                                phobia terhadap CSS dan mudah dipahami bagi UI designer</p>
+                        </div>
+                        <div class="flex space-x-5 text-justify">
+                            <img src="icon/check.svg" alt="check icon">
+                            <p class="font-dmsans leading-relaxed text-base">Studi kasus membangun sebuah website
+                                responsive dengan Tailwind CSS tanpa ngoding CSS</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative w-6/12 mt-20">
+                    <div class="rotate-6">
+                        <img class="animate-floating mx-auto" src="img/buku_content.svg" alt="content buku">
+                    </div>
+                    <div class="absolute top-[480px]">
+                        <div
+                            class="flex absolute bg-primary w-[600px] rounded-xl px-10 shadow-primary/40 shadow-lg py-5 justify-between">
+                            <div class="border-r border-white/30 pr-10">
+                                <h1 class="font-dmsans font-bold text-2xl text-white">19</h1>
+                                <p class="font-dmsans text-sm text-white">Jumlah Chapter</p>
+                            </div>
+                            <div class="border-r border-white/30 pr-10">
+                                <h1 class="font-dmsans font-bold text-2xl text-white">253</h1>
+                                <p class="font-dmsans text-sm text-white">Jumlah Halaman</p>
+                            </div>
+                            <div>
+                                <h1 class="font-dmsans font-bold text-2xl text-white">60</h1>
+                                <p class="font-dmsans text-sm text-white">Hari Menulis</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Studi Kasus -->
+        <div class="w-full py-10">
+            <div class="flex mx-20 justify-between items-center">
+
+                <div class="relative pt-40 -rotate-6 w-6/12">
+                    <img class="absolute animate-floating top-36 left-3" src="img/ex_studi.png"
+                        alt="contoh studi kasus">
+                    <img src="img/bg_ex_studi.png" alt="">
+                </div>
+
+                <div class="w-6/12">
+                    <div class="flex items-center space-x-4 pb-5">
+                        <div class="w-7 h-0.5 bg-primary"></div>
+                        <p class="font-dmsans tracking-widest font-bold text-sm text-primary">SELAIN ITU</p>
+                    </div>
+                    <div class="space-y-5">
+                        <h1 class="font-dmsans font-medium text-3xl leading-relaxed">Buku dengan studi kasus nyata, juga
+                            komunitas yang
+                            ramah</h1>
+                        <p class="font-dmsans leading-relaxed">Buku ini diakhiri dengan membangun website yang
+                            responsive dengan
+                            Tailwind. Selain itu kamu
+                            juga kamu dapat bergabung ke
+                            komunitas untuk bertanya ketika mengalami kesulitan.</p>
+
+                        <div class="bg-white flex items-center justify-evenly rounded-2xl shadow-gray-300/40 shadow-xl">
+                            <img src="icon/layout.svg" alt="layout icon">
+                            <div class="w-8/12 py-5">
+                                <h1 class="font-dmsans text-lg font-bold text-primary">Live Demo Project</h1>
+                                <p class="font-dmsans text-base">Lihat live demo project yang akan kamu buat di akhir
+                                    buku ini.</p>
+                            </div>
+                            <a href="#"><img src="icon/arrow.svg" alt="panah"></a>
+                        </div>
+
+                        <div class="bg-white flex items-center justify-evenly rounded-2xl shadow-gray-300/40 shadow-xl">
+                            <img src="icon/layout.svg" alt="layout icon">
+                            <div class="w-8/12 py-5">
+                                <h1 class="font-dmsans text-lg font-bold text-primary">Live Demo Project</h1>
+                                <p class="font-dmsans text-base">Lihat live demo project yang akan kamu buat di akhir
+                                    buku ini.</p>
+                            </div>
+                            <a href="#"><img src="icon/arrow.svg" alt="panah"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Content Pratinjau -->
+        <div class="w-full pt-20 pb-60">
+            <div class="mx-40 space-y-7">
+                <p
+                    class="text-center font-dmsans font-bold text-primary text-sm rounded-full block bg-[#C6F4F8] mx-auto w-32 py-2">
+                    PRATINJAU
+                </p>
+                <div class="mx-40 space-y-5">
+                    <h1 class="font-dmsans text-3xl font-medium leading-snug text-center">Sebelum membeli, kamu dapat
+                        melihat
+                        beberapa
+                        halaman
+                        pratinjau isi di dalam buku ini</h1>
+                    <p class="font-dmsans text-lg leading-relaxed text-center">Klik pada gambar halaman di sebelah kanan
+                        buku untuk
+                        melihat lebih detail halaman buku tersebut
+                        dan membaca isinya.</p>
+                </div>
+            </div>
+
+            <div class="w-full py-10">
+                <div class="flex overflow-hidden items-center">
+                    <img class="w-4/12 pt-10" src="img/buku.svg" alt="buku">
+                    <img class="w-9/12 shrink-0" src="img/halaman_buku.png" alt="halaman buku">
+                </div>
+                <p class="-mt-16 text-center font-dmsans">Halaman 1 dari 257</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Harga Buku -->
+    <div class="bg-dark w-full rounded-br-[50px]">
+        <div class="mx-40 py-10">
+            <div class="mb-5">
+                <p
+                    class="text-center font-dmsans font-bold text-primary text-sm rounded-full block bg-[#374151] mx-auto w-32 py-2">
+                    HARGA BUKU
+                </p>
+            </div>
+            <div class="mx-40 space-y-5">
+                <h1 class="font-dmsans font-medium text-center leading-snug text-white text-3xl">Kamu dapat membeli buku
+                    fisik atau
+                    buku
+                    elektronik
+                    untuk dibaca di perangkat kamu</h1>
+                <p class="font-dmsans text-white leading-relaxed text-center">Dilarang memperjualbelikan atau
+                    memperbanyak tanpa seizin
+                    penulis. Hak
+                    cipta dilindungi undang-undang.</p>
+            </div>
+        </div>
+
+
+        <div class="flex justify-evenly py-10">
+            <!-- Card Harga -->
+            <div class="bg-white w-96 h-fit rounded-xl">
+                <div class="px-16 py-10 space-y-10">
+                    <div class="space-y-2">
+                        <p class="text-primary font-dmsans font-bold">Buku Digital</p>
+                        <h1 class="font-dmsans font-medium text-3xl">Rp100.000</h1>
+                    </div>
+                    <div class="space-y-5">
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Buku Lengkap</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Akses Secara Digital</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img class="h-[31px] w-[30px]" src="icon/cross.svg" alt="check">
+                            <p class="font-dmsans">Buku Fisik</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Mendapat Pembauan</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Konsultasi</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Dapat diunduh</p>
+                        </div>
+                    </div>
+                    <a class="block text-white shadow-xl font-dmsans text-center py-3 rounded-lg bg-primary"
+                        href="#">Beli
+                        Sekarang</a>
+                </div>
+            </div>
+            <div class="bg-white w-96 h-fit rounded-xl">
+                <div class="px-16 py-10 space-y-10">
+                    <div class="space-y-2">
+                        <p class="text-primary font-dmsans font-bold">Buku Fisik</p>
+                        <h1 class="font-dmsans font-medium text-3xl">Rp185.000</h1>
+                    </div>
+                    <div class="space-y-5">
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Buku Lengkap</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img class="h=[30px] w-[30px]" src="icon/cross.svg" alt="check">
+                            <p class="font-dmsans">Akses Secara Digital</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Buku Fisik</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img class="h=[30px] w-[30px]" src="icon/cross.svg" alt="check">
+                            <p class="font-dmsans">Mendapat Pembauan</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Konsultasi</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Dapat diunduh</p>
+                        </div>
+                    </div>
+                    <a class="block text-white shadow-xl font-dmsans text-center py-3 rounded-lg bg-primary"
+                        href="#">Beli
+                        Sekarang</a>
+                </div>
+            </div>
+            <div class="bg-white w-96 h-fit rounded-xl">
+                <div class="px-16 py-10 space-y-10">
+                    <div class="space-y-2">
+                        <p class="text-primary font-dmsans font-bold">Buku Digital + Fisik</p>
+                        <h1 class="font-dmsans font-medium text-3xl">Rp250.000</h1>
+                    </div>
+                    <div class="space-y-5">
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Buku Lengkap</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Akses Secara Digital</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Buku Fisik</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Mendapat Pembauan</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Konsultasi</p>
+                        </div>
+                        <div class="flex items-center space-x-5">
+                            <img src="icon/check.svg" alt="check">
+                            <p class="font-dmsans">Dapat diunduh</p>
+                        </div>
+                    </div>
+                    <a class="block text-white shadow-xl font-dmsans text-center py-3 rounded-lg bg-primary"
+                        href="#">Beli
+                        Sekarang</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="mx-auto text-center py-10 font-dmsans text-white">
+            <p>*Buku digital akan dikirimkan ke alamat email kamu</p>
+            <p>*Buku fisik dikirim 7 hari setelah pemesanan</p>
+        </div>
+    </div>
+
+    <!-- Penulis Buku -->
+    <div class="w-full py-20">
+        <div class="flex items-center">
+            <div class="relative pt-20 w-6/12">
+                <img src="img/foto-ganteng.png" alt="bg foto ganteng">
+                <img class="absolute  animate-floating top-24 left-3" src="img/foto-ganteng-banget.png"
+                    alt="foto ganteng banget">
+                <div class="absolute left-32 top-[600px] z-10 rounded-xl bg-primary">
+                    <div class="px-10 py-5">
+                        <h1 class="text-white text-lg font-dmsans font-medium">Muhamad Nauval Azhar</h1>
+                        <p class="text-white font-dmsans text-base">@mhdnauvalazhar</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="w-5/12">
+                <div class="space-y-5">
+                    <p class="font-dmsans font-bold text-primary tracking-wide">PENULIS BUKU</p>
+                    <h2 class="font-medium font-dmsans text-3xl">Tak kenal maka tak kenal. Berkenalan dengan penulis
+                        buku ini</h2>
+                    <p class="text-justify font-dmsans text-base leading-loose">
+                        “Halo, saya Nauval. Mungkin nama ini terdengar asing di telinga kamu. Namun, kedepannya saya
+                        berharap nama ini tidak
+                        lagi terdengar asing di telinga kamu sebagai orang yang rajin berbagi hal-hal baik untuk
+                        masyarakat, khususnya dalam
+                        ilmu komputer. Saya seorang web developer yang masuk kategori
+                        apa-aja-dikerjain-selagi-ada-manfaat-nya. Meski begitu,
+                        saya lebih senang fokus di front-end development, karena --menurut saya-- ini lebih sederhana
+                        saja. Di front-end
+                        development pada dasarnya hanya perlu menguasai tiga bahasa: HTML, CSS, dan JavaScript. Sudah
+                        jelas ini sederhana, yang
+                        bikin ribet itu kamu sendiri, sudah tau kamu cocoknya pake jQuery, malah maksa pake React.”
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimoni -->
+    <div class="w-full py-20">
+        <div>
+            <div class="h-[650px] mx-auto w-[1100px] bg-[#EDFCFD] rounded-xl">
+                <div class="py-20 px-20 flex">
+                    <div class="w-6/12">
+                        <div class="flex items-center space-x-4 pb-5">
+                            <div class="w-7 h-0.5 bg-primary"></div>
+                            <p class="font-dmsans tracking-widest font-bold text-sm text-primary">TESTIMONIAL</p>
+                        </div>
+                        <div>
+                            <h3 class="font-dmsans font-medium text-3xl">Apa kata orang-orang yang membaca buku ini?
+                            </h3>
+                        </div>
+                    </div>
+
+                    <div class="w-6/12">
+                        <p class="font-dmsans text-justify leading-loose text-base">Kalo seandainya kamu belum percaya
+                            dengan buku ini
+                            maka tidak
+                            apa-apa, karena yang patut kamu percayai adalah Tuhan.
+                            Tapi, mungkin beberapa ulasan ini bisa membangkitkan hasratmu untuk membeli buku ini.</p>
+                    </div>
+                </div>
+
+                <div class="w-full absolute left-0">
+                    <div class="flex justify-evenly">
+                        <div class="bg-white shadow-xl shadow-[#00BAC7]/10 w-96 rounded-xl h-auto">
+                            <div class="p-10 space-y-5">
+                                <p class="font-dmsans">“Buku ini membantu banget buat kalian yang mau cobain tailwind,
+                                    lengkap
+                                    mulai dari instalasi sampai ke penggunaannya.
+                                    Penjelasannya lengkap & enak dibaca kok :)”</p>
+                                <div class="flex space-x-4">
+                                    <img src="img/foto-testi1.png" alt="foto testimoni">
+                                    <div>
+                                        <p class="font-dmsans font-medium text-lg">Ahmad Saugi</p>
+                                        <p class="font-dmsans">Mahasiswa</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white w-96 shadow-xl shadow-[#00BAC7]/10 rounded-xl  h-auto">
+                            <div class="p-10 space-y-5">
+                                <p class="font-dmsans">“Terimakasih atas bukunya mas. Sangat membantu saya yang masih
+                                    pemula dalam proses memahami taildwindcss. Isinya cukup
+                                    lengkap dan detail.”</p>
+                                <div class="flex space-x-4">
+                                    <img src="img/foto-testi2.png" alt="foto testimoni">
+                                    <div>
+                                        <p class="font-dmsans font-medium text-lg">Dedik Sugiharto</p>
+                                        <p class="font-dmsans">Front-end Engineer</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-white w-96 shadow-xl shadow-[#00BAC7]/10 rounded-xl  h-auto">
+                            <div class="p-10 space-y-5">
+                                <p class="font-dmsans">“Sebagai pemula yang tidak memiliki latar belakang pemrograman,
+                                    buku ini sangat cocok untuk dijadikan referensi belajar.
+                                    Penjelasannya ringkas tapi mudah dipahami.”</p>
+                                <div class="flex space-x-4">
+                                    <img src="img/foto-testi3.png" alt="foto testimoni">
+                                    <div>
+                                        <p class="font-dmsans font-medium text-lg">Lutfi Hanafiah Ramadhan</p>
+                                        <p class="font-dmsans">IT Support</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-full py-20">
+        <div class="mx-40 space-y-5">
+            <p
+                class="text-center font-dmsans font-bold text-primary text-sm rounded-full block bg-[#EDFCFD] mx-auto w-32 py-2">
+                BELI BUKU
+            </p>
+            <h1 class="font-dmsans text-center font-medium text-3xl">Anda ingin segera memesan buku ini?</h1>
+            <p class="font-dmsans text-center text-lg">Otak Kita butuh asupan nutrisi juga, <br> tidak hanya perut saja.
+            </p>
+            <div class="mx-40">
+                <div class="flex justify-evenly items-center">
+                    <div class="flex space-x-7">
+                        <img class="animate-bounce w-5 h-5" src="icon/download_dark.svg" alt="icon download">
+                        <div>
+                            <h4 class=" tracking-widest font-sans-pro font-bold text-base">SUDAH
+                                TERJUAL
+                            </h4>
+                            <h1 class=" text-xl font-inter font-bold">501,234+</h1>
+                        </div>
+                    </div>
+                    <a href="#"
+                        class="flex hover:shadow-lg hover:shadow-primary/40 duration-300 bg-primary text-white font-dmsans font-medium px-6 py-5 w-fit rounded-full text-base">Beli
+                        Sekarang <img class="pl-3" src="icon/arrow-right-circle.svg" alt="icon arrow"></a>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer class="bg-dark rounded-tr-[50px]">
+    <div class="mx-40">
+        <div class="flex py-20 justify-between">
+            <div class="w-5/12 space-y-4">
+                <h1 class="text-white font-medium font-dmsans text-2xl">Sudah siap meningkatkan skill kamu?</h1>
+                <p class="text-white font-dmsans">Mulai belajar hari ini di Multinity, atau dapatkan jawaban atas
+                    pertanyaan kamu di halaman bantuan.</p>
+            </div>
+            <div class="w-5/12">
+                <div class="flex justify-evenly">
+                    <a href="#" class="block font-dmsans font-bold bg-[#323748] text-white px-10 py-5 rounded-lg">Pusat
+                        Bantuan</a>
+                    <a href="#"
+                        class="block font-dmsans font-bold bg-primary text-white px-10 py-5 rounded-lg hover:shadow-primary/30 hover:shadow-xl duration-300">Mendaftar</a>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="flex justify-between">
+                <div class="w-5/12 space-y-4">
+                    <img src="img/malaka-icon.svg" alt="icon malaka">
+                    <h1 class="font-dmsans font-bold text-white">The Malaka</h1>
+                    <p class="font-dmsans text-white">Malaka adalah situs penyedia kursus ilmu komputer berbahasa
+                        Indonesia,
+                        mulai dari pengembangan hingga
+                        desain grafis.</p>
+                </div>
+                <div class="flex w-5/12 justify-between">
+                    <div class="space-y-6">
+                        <h1 class="font-dmsans font-bold text-white/60 text-sm">PRODUCT</h1>
+                        <div class="space-y-4">
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Courses</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Books</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Freebies</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Classes</a>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <h1 class="font-dmsans font-bold text-white/60 text-sm">COMPANY</h1>
+                        <div class="space-y-4">
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">About Us</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Contact</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Privacy Policy</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Terms of Service</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Help</a>
+                        </div>
+                    </div>
+                    <div class="space-y-6">
+                        <h1 class="font-dmsans font-bold text-white/60 text-sm">GET IN TOUCH</h1>
+                        <div class="space-y-4">
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Twitter</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Facebook</a>
+                            <a href="#" class="block font-dmsans text-white/60 text-sm">Dribbble</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p class="text-center py-10 text-white/60 font-dmsans text-[12px] tracking-widest">COPYRIGHT &copy; 2022 - DESIGN
+        NAUVAL/WEB PRAYOGI</p>
+</footer>
+
+</html>
